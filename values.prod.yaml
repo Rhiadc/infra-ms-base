@@ -4,7 +4,7 @@ ms:
   Name: "ms-base-go"
 image:
   repository: rhiadciccoli/ms-base-go
-  tag: "test"
+  tag: "b37f40c44dfc0a6243a7926bfb331eddc17ffc07"
   pullPolicy: IfNotPresent
 service:
   name: nginx-service
