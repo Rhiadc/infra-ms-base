@@ -1,0 +1,17 @@
+replicaCount: 1
+namespace: "ms-base-go"
+ms:
+  Name: "ms-base-go"
+image:
+  repository: rhiadciccoli/ms-base-go
+  tag: "test"
+  pullPolicy: IfNotPresent
+service:
+  name: nginx-service
+  type: ClusterIP
+  port: 80
+  targetPort: 9000
+env:
+  name: prod
+secret:
+  enable: true
